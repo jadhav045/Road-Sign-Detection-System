@@ -36,7 +36,9 @@ The Real-Time Traffic Sign Analysis project aims to develop a traffic sign class
 4. Run the MODEL first
    ```bash
    python traffic_sign.py
-  It will take some time
+
+It will take some time
+  
 5. Run Main file Now
   ```bash
     python fgui.py
