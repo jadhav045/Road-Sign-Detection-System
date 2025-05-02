@@ -47,24 +47,47 @@ your-project-folder/
     ├── Train/
     ├── Test/
     ├── your-code-files/
+```
+⚙️ Installation
+Follow the steps below to set up and run the project:
 
-## Installation
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/Real-Time-Traffic-Sign-Analysis.git
+2. Navigate to the Project Directory
+bash
+Copy
+Edit
+cd Real-Time-Traffic-Sign-Analysis
+3. (Optional) Create and Activate a Virtual Environment
+bash
+Copy
+Edit
+python -m venv env
+env\Scripts\activate    # On Windows
+# source env/bin/activate   # On macOS/Linux
+4. Install Dependencies
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Note: If requirements.txt doesn't exist, manually install:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Real-Time-Traffic-Sign-Analysis.gitw
-2. Navigate to the project directory:
-   ```bash
-    cd Real-Time-Traffic-Sign-Analysis
-3. Install the required packages
-   ```bash
-     pip install tensorflow keras sklearn matplotlib pandas pil
-4. Run the MODEL first
-   ```bash
-   python traffic_sign.py
+bash
+Copy
+Edit
+pip install tensorflow keras scikit-learn matplotlib pandas pillow opencv-python tk googletrans==4.0.0-rc1
+5. Train the Model
+bash
+Copy
+Edit
+python traffic_sign.py
+This will take a few minutes depending on your machine.
 
-It will take some time
-  
-5. Run Main file Now
-  ```bash
-    python fgui.py
+6. Run the Application
+bash
+Copy
+Edit
+python fgui.py
