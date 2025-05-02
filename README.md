@@ -23,7 +23,35 @@ The Real-Time Traffic Sign Analysis project aims to develop a traffic sign class
 - **Libraries/Frameworks**: Keras, TensorFlow, OpenCV, Matplotlib, Pandas, Tkinter, Google Translator API
 - **Model Architecture**: Convolutional Neural Network (CNN)
 
+
+## Dataset
+
+### Step 1: Download the Dataset
+You can download the required dataset from the Google Drive link below:
+
+[Download the dataset from Google Drive](https://drive.google.com/drive/folders/?usp=drive_link)
+
+### Step 2: Extract the Dataset
+After downloading, extract the files and place them in the `data/` folder in your project directory. 
+
+- **Folder structure**:
+  - `data/`
+    - `Meta/`
+    - `Train/`
+    - `Test/`
+  
+### Step 3: Verify Dataset Placement
+Ensure that the extracted files are placed correctly:
+```plaintext
+your-project-folder/
+    ├── data/
+        ├── Meta/
+        ├── Train/
+        ├── Test/
+    ├── your-code-files/
+
 ## Installation
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/Real-Time-Traffic-Sign-Analysis.gitw
