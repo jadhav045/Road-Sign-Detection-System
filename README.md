@@ -35,7 +35,6 @@ You can download the required dataset from the Google Drive link below:
 After downloading, extract the files and place them in the `data/` folder in your project directory. 
 
 - **Folder structure**:
-  - `data/`
     - `Meta/`
     - `Train/`
     - `Test/`
@@ -44,10 +43,9 @@ After downloading, extract the files and place them in the `data/` folder in you
 Ensure that the extracted files are placed correctly:
 ```plaintext
 your-project-folder/
-    ├── data/
-        ├── Meta/
-        ├── Train/
-        ├── Test/
+    ├── Meta/
+    ├── Train/
+    ├── Test/
     ├── your-code-files/
 
 ## Installation
