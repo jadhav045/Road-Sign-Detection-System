@@ -53,17 +53,15 @@ Follow the steps below to set up and run the project:
 
 1. Clone the Repository
 ```
-bash
 git clone https://github.com/yourusername/Real-Time-Traffic-Sign-Analysis.git
 ```
 2. Navigate to the Project Directory
 ```
-bash
 cd Real-Time-Traffic-Sign-Analysis
 ```
 4. (Optional) Create and Activate a Virtual Environment
 
-```bash
+```
 python -m venv env
 env\Scripts\activate    # On Windows
 # source env/bin/activate   # On macOS/Linux
@@ -71,23 +69,19 @@ env\Scripts\activate    # On Windows
 4. Install Dependencies
 
 ```
-bash
 pip install -r requirements.txt
 ```
 Note: If requirements.txt doesn't exist, manually install:
 ```
-bash
 pip install tensorflow keras scikit-learn matplotlib pandas pillow opencv-python tk googletrans==4.0.0-rc1
 ```
 5. Train the Model
 ```
-bash
 python traffic_sign.py
 ```
 This will take a few minutes depending on your machine.
 
 6. Run the Application
 ```
-bash
 python fgui.py
 ```
